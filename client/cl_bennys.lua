@@ -959,6 +959,7 @@ function SetupInteraction()
             })
         end
     else
+        if PlayerData.job.name == "mechanic" then
         text = '[E] '..text
         CheckForKeypress()
     end
